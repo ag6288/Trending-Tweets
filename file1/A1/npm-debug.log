@@ -1,0 +1,218 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g', 'hoek' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'hoek', null ]
+5 verbose cache add name=undefined spec="hoek" args=["hoek",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'hoek',
+6 verbose parsed url   path: 'hoek',
+6 verbose parsed url   href: 'hoek' }
+7 silly lockFile ba26a8ba-hoek hoek
+8 verbose lock hoek /home/durvesh/.npm/ba26a8ba-hoek.lock
+9 silly lockFile ba26a8ba-hoek hoek
+10 silly lockFile ba26a8ba-hoek hoek
+11 verbose addNamed [ 'hoek', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 1c1999d5-hoek hoek@
+14 verbose lock hoek@ /home/durvesh/.npm/1c1999d5-hoek.lock
+15 silly addNameRange { name: 'hoek', range: '*', hasData: false }
+16 verbose url raw hoek
+17 verbose url resolving [ 'https://registry.npmjs.org/', './hoek' ]
+18 verbose url resolved https://registry.npmjs.org/hoek
+19 info trying registry request attempt 1 at 14:39:56
+20 verbose etag "59fc32ef-1c938"
+21 http GET https://registry.npmjs.org/hoek
+22 http 304 https://registry.npmjs.org/hoek
+23 silly registry.get cb [ 304,
+23 silly registry.get   { date: 'Sun, 26 Nov 2017 19:40:00 GMT',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     'cache-control': 'max-age=300',
+23 silly registry.get     etag: '"59fc32ef-1c938"',
+23 silly registry.get     age: '15',
+23 silly registry.get     connection: 'keep-alive',
+23 silly registry.get     'x-served-by': 'cache-jfk8146-JFK',
+23 silly registry.get     'x-cache': 'HIT',
+23 silly registry.get     'x-cache-hits': '1',
+23 silly registry.get     'x-timer': 'S1511725200.248445,VS0,VE1',
+23 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+24 verbose etag hoek from cache
+25 silly addNameRange number 2 { name: 'hoek', range: '*', hasData: true }
+26 silly addNameRange versions [ 'hoek',
+26 silly addNameRange   [ '0.0.1',
+26 silly addNameRange     '0.0.2',
+26 silly addNameRange     '0.0.3',
+26 silly addNameRange     '0.0.4',
+26 silly addNameRange     '0.0.5',
+26 silly addNameRange     '0.0.6',
+26 silly addNameRange     '0.0.7',
+26 silly addNameRange     '0.0.8',
+26 silly addNameRange     '0.0.9',
+26 silly addNameRange     '0.0.10',
+26 silly addNameRange     '0.0.11',
+26 silly addNameRange     '0.0.12',
+26 silly addNameRange     '0.0.13',
+26 silly addNameRange     '0.0.14',
+26 silly addNameRange     '0.0.15',
+26 silly addNameRange     '0.0.16',
+26 silly addNameRange     '0.0.17',
+26 silly addNameRange     '0.0.18',
+26 silly addNameRange     '0.0.19',
+26 silly addNameRange     '0.0.21',
+26 silly addNameRange     '0.1.0',
+26 silly addNameRange     '0.2.0',
+26 silly addNameRange     '0.3.0',
+26 silly addNameRange     '0.4.0',
+26 silly addNameRange     '0.4.1',
+26 silly addNameRange     '0.4.2',
+26 silly addNameRange     '0.4.3',
+26 silly addNameRange     '0.4.4',
+26 silly addNameRange     '0.4.5',
+26 silly addNameRange     '0.5.0',
+26 silly addNameRange     '0.6.0',
+26 silly addNameRange     '0.6.1',
+26 silly addNameRange     '0.6.2',
+26 silly addNameRange     '0.7.0',
+26 silly addNameRange     '0.7.1',
+26 silly addNameRange     '0.7.2',
+26 silly addNameRange     '0.7.3',
+26 silly addNameRange     '0.7.4',
+26 silly addNameRange     '0.7.5',
+26 silly addNameRange     '0.7.6',
+26 silly addNameRange     '0.8.0',
+26 silly addNameRange     '0.8.1',
+26 silly addNameRange     '0.8.2',
+26 silly addNameRange     '0.8.3',
+26 silly addNameRange     '0.8.4',
+26 silly addNameRange     '0.8.5',
+26 silly addNameRange     '0.9.0',
+26 silly addNameRange     '0.9.1',
+26 silly addNameRange     '0.10.0',
+26 silly addNameRange     '1.0.0',
+26 silly addNameRange     '1.0.1',
+26 silly addNameRange     '1.0.2',
+26 silly addNameRange     '1.0.3',
+26 silly addNameRange     '1.1.0',
+26 silly addNameRange     '1.1.1',
+26 silly addNameRange     '1.1.2',
+26 silly addNameRange     '1.2.0',
+26 silly addNameRange     '1.3.0',
+26 silly addNameRange     '1.4.0',
+26 silly addNameRange     '1.4.1',
+26 silly addNameRange     '1.5.0',
+26 silly addNameRange     '1.5.1',
+26 silly addNameRange     '1.5.2',
+26 silly addNameRange     '2.0.0',
+26 silly addNameRange     '2.1.0',
+26 silly addNameRange     '2.1.1',
+26 silly addNameRange     '2.2.0',
+26 silly addNameRange     '2.3.0',
+26 silly addNameRange     '2.4.0',
+26 silly addNameRange     '2.4.1',
+26 silly addNameRange     '2.5.0',
+26 silly addNameRange     '2.5.1',
+26 silly addNameRange     '2.6.0',
+26 silly addNameRange     '2.7.0',
+26 silly addNameRange     '2.8.0',
+26 silly addNameRange     '2.8.1',
+26 silly addNameRange     '2.9.0',
+26 silly addNameRange     '2.9.1',
+26 silly addNameRange     '2.10.0',
+26 silly addNameRange     '2.11.0',
+26 silly addNameRange     '2.11.1',
+26 silly addNameRange     '2.12.0',
+26 silly addNameRange     '2.13.0',
+26 silly addNameRange     '2.13.1',
+26 silly addNameRange     '2.14.0',
+26 silly addNameRange     '2.15.0',
+26 silly addNameRange     '2.16.0',
+26 silly addNameRange     '2.16.1',
+26 silly addNameRange     '2.16.2',
+26 silly addNameRange     '2.16.3',
+26 silly addNameRange     '3.0.0',
+26 silly addNameRange     '3.0.1',
+26 silly addNameRange     '3.0.2',
+26 silly addNameRange     '3.0.3',
+26 silly addNameRange     '3.0.4',
+26 silly addNameRange     '4.0.0',
+26 silly addNameRange     '4.0.1',
+26 silly addNameRange     '4.0.2',
+26 silly addNameRange     '4.1.0',
+26 silly addNameRange     '4.1.1',
+26 silly addNameRange     '4.2.0',
+26 silly addNameRange     '5.0.0',
+26 silly addNameRange     '5.0.1',
+26 silly addNameRange     '5.0.2' ] ]
+27 verbose addNamed [ 'hoek', '5.0.2' ]
+28 verbose addNamed [ '5.0.2', '5.0.2' ]
+29 silly lockFile 9cc6adcd-hoek-5-0-2 hoek@5.0.2
+30 verbose lock hoek@5.0.2 /home/durvesh/.npm/9cc6adcd-hoek-5-0-2.lock
+31 silly lockFile 9cc6adcd-hoek-5-0-2 hoek@5.0.2
+32 silly lockFile 9cc6adcd-hoek-5-0-2 hoek@5.0.2
+33 silly lockFile 1c1999d5-hoek hoek@
+34 silly lockFile 1c1999d5-hoek hoek@
+35 silly resolved [ { name: 'hoek',
+35 silly resolved     description: 'General purpose node utilities',
+35 silly resolved     version: '5.0.2',
+35 silly resolved     repository: { type: 'git', url: 'git://github.com/hapijs/hoek' },
+35 silly resolved     main: 'lib/index.js',
+35 silly resolved     keywords: [ 'utilities' ],
+35 silly resolved     engines: { node: '>=8.9.0' },
+35 silly resolved     dependencies: {},
+35 silly resolved     devDependencies: { code: '5.x.x', lab: '15.x.x' },
+35 silly resolved     scripts:
+35 silly resolved      { test: 'lab -a code -t 100 -L',
+35 silly resolved        'test-cov-html': 'lab -a code -t 100 -L -r html -o coverage.html' },
+35 silly resolved     license: 'BSD-3-Clause',
+35 silly resolved     readme: '![hoek Logo](https://raw.github.com/hapijs/hoek/master/images/hoek.png)\n\nUtility methods for the hapi ecosystem. This module is not intended to solve every problem for everyone, but rather as a central place to store hapi-specific methods. If you\'re looking for a general purpose utility module, check out [lodash](https://github.com/lodash/lodash) or [underscore](https://github.com/jashkenas/underscore).\n\n[![Build Status](https://secure.travis-ci.org/hapijs/hoek.svg)](http://travis-ci.org/hapijs/hoek)\n\n<a href="https://andyet.com"><img src="https://s3.amazonaws.com/static.andyet.com/images/%26yet-logo.svg" align="right" /></a>\n\nLead Maintainer: [Nathan LaFreniere](https://github.com/nlf)\n\n**hoek** is sponsored by [&yet](https://andyet.com)\n\n## Usage\n\nThe *Hoek* library contains some common functions used within the hapi ecosystem. It comes with useful methods for Arrays (clone, merge, applyToDefaults), Objects (removeKeys, copy), Asserting and more.\n\nFor example, to use Hoek to set configuration with default options:\n```javascript\nconst Hoek = require(\'hoek\');\n\nconst default = {url : "www.github.com", port : "8000", debug : true};\n\nconst config = Hoek.applyToDefaults(default, {port : "3000", admin : true});\n\n// In this case, config would be { url: \'www.github.com\', port: \'3000\', debug: true, admin: true }\n```\n\n## Documentation\n\n[**API Reference**](API.md)\n',
+35 silly resolved     readmeFilename: 'README.md',
+35 silly resolved     bugs: { url: 'https://github.com/hapijs/hoek/issues' },
+35 silly resolved     _id: 'hoek@5.0.2',
+35 silly resolved     _from: 'hoek@' } ]
+36 info install hoek@5.0.2 into /usr/local/lib
+37 info installOne hoek@5.0.2
+38 warn engine hoek@5.0.2: wanted: {"node":">=8.9.0"} (current: {"node":"v0.10.25","npm":"1.3.10"})
+39 info /usr/local/lib/node_modules/hoek unbuild
+40 verbose tar unpack /home/durvesh/.npm/hoek/5.0.2/package.tgz
+41 silly lockFile 29c24a9e--usr-local-lib-node-modules-hoek tar:///usr/local/lib/node_modules/hoek
+42 verbose lock tar:///usr/local/lib/node_modules/hoek /home/durvesh/.npm/29c24a9e--usr-local-lib-node-modules-hoek.lock
+43 silly lockFile 63ce43e8-rvesh-npm-hoek-5-0-2-package-tgz tar:///home/durvesh/.npm/hoek/5.0.2/package.tgz
+44 verbose lock tar:///home/durvesh/.npm/hoek/5.0.2/package.tgz /home/durvesh/.npm/63ce43e8-rvesh-npm-hoek-5-0-2-package-tgz.lock
+45 silly gunzTarPerm modes [ '755', '644' ]
+46 error Error: EACCES, mkdir '/usr/local/lib/node_modules'
+46 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules']
+46 error   errno: 3,
+46 error   code: 'EACCES',
+46 error   path: '/usr/local/lib/node_modules',
+46 error   fstream_type: 'Directory',
+46 error   fstream_path: '/usr/local/lib/node_modules/hoek',
+46 error   fstream_class: 'DirWriter',
+46 error   fstream_stack:
+46 error    [ '/usr/lib/nodejs/fstream/lib/writer.js:171:23',
+46 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+46 error      'Object.oncomplete (fs.js:107:15)' ] }
+47 error Please try running this command again as root/Administrator.
+48 error System Linux 3.4.0+
+49 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "hoek"
+50 error cwd /mnt/c/Users/dpatil/NodeAssignment/collectTweets
+51 error node -v v0.10.25
+52 error npm -v 1.3.10
+53 error path /usr/local/lib/node_modules
+54 error fstream_path /usr/local/lib/node_modules/hoek
+55 error fstream_type Directory
+56 error fstream_class DirWriter
+57 error code EACCES
+58 error errno 3
+59 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules'
+60 error fstream_stack /usr/lib/nodejs/fstream/lib/writer.js:171:23
+60 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+60 error fstream_stack Object.oncomplete (fs.js:107:15)
+61 verbose exit [ 3, true ]

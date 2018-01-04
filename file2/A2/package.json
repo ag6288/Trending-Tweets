@@ -1,0 +1,22 @@
+{
+  "name": "receivesqs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "0s": "^1.0.0",
+    "aws-sdk": "^2.153.0",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "elasticsearch": "^14.0.0",
+    "http": "0.0.0",
+    "http-aws-es": "^3.1.3",
+    "https": "^1.0.0",
+    "request": "^2.83.0"
+  }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tweet Trends</title>
+   <center>  <h1>Twitter Trends</h1> </center>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        #map{
+            height: 700px;
+            width: 100%;
+        }
+        #keywordarea{
+            background-color: green;
+            height :35px;
+        }
+
+        label {color: #101112;}
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="./CSS/css/bootstrap.css">
+    <script type ="text/javascript" src="./JS/twitterJS.js"></script>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.154.0.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="./dist/aws-sdk.js"></script>
+    <script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR-GOOGLE-API-KEY&callback=initMap"></script>
+</head>
+
+<body onload="initMap()">
+
+<div id = "keywordarea" >
+    <br>
+    <style>
+    {height: 20px;}
+    </style>
+        <label style="font-family:Arial; font-size:15px" ><b> Select Keyword from the List</b> </label>
+
+            <select id="sel" name="words" onchange="selectItem(this.value)">
+             	<option value="Trump" selected >Trump</option>
+                <option value="Life">Life</option>
+                <option value="Sports">Sports</option>
+                <option value="Food">Food</option>
+                <option value="Travel">Travel</option>
+                <option value="NewYork">NewYork</option>
+            </select>
+
+            
+
+
+</div>
+
+<div id="map"></div>
+</body>
+
+</html>
